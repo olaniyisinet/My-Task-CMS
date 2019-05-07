@@ -9,7 +9,8 @@ This is my attempt to the question.
 -   `cd` to the project directory.
 -   Run the command `composer install`.
 -   Run the command `php artisan key:generate` to generate an application key.
--   Configure the database settings in the `.env` file.
+-   Create your mysql database and note your db connections
+-   Configure the database settings in the `.env` file (updating the mysql db connection to yours).
 -   Update the `PUSHER_APP_*` keys in the `.env` file.
 -   Migrate the database by running this command: `php artisan migrate --seed`.
 -   Run the command: `php artisan serve` to start the app.
